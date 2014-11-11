@@ -120,6 +120,7 @@ var AngularFullstackGenerator = yeoman.generators.Base.extend({
       }.bind(this));
   },
 
+  /*
   serverPrompts: function() {
     if(this.skipConfig) return;
     var cb = this.async();
@@ -205,7 +206,7 @@ var AngularFullstackGenerator = yeoman.generators.Base.extend({
 
   compose: function() {
     if(this.skipConfig) return;
-    var appPath = 'client/app/';
+    var appPath = 'app/';
     var extensions = [];
     var filters = [];
 
@@ -232,6 +233,7 @@ var AngularFullstackGenerator = yeoman.generators.Base.extend({
       }
     }, { local: require.resolve('generator-ng-component/app/index.js') });
   },
+           */
 
   ngModules: function() {
     this.filters = this._.defaults(this.config.get('filters'), {
