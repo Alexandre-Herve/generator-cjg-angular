@@ -1,26 +1,25 @@
 {
-  "name": "generator-angular-fullstack",
-  "version": "2.0.13",
-  "description": "Yeoman generator for creating MEAN stack applications, using MongoDB, Express, AngularJS, and Node",
+  "name": "generator-cjg-angular",
+  "version": "1.0.0",
+  "description": "Yeoman generator for creating angularjs applications with coffe, jade and gulp (cjg)",
   "keywords": [
     "yeoman-generator",
-    "mean",
-    "mongodb",
+    "jade",
+    "gulp",
+    "coffee",
+    "sub-generators",
     "angularjs",
-    "express",
-    "scaffold",
-    "fullstack",
     "framework",
     "component",
     "front-end",
     "app"
   ],
-  "homepage": "https://github.com/DaftMonk/generator-angular-fullstack",
-  "bugs": "https://github.com/DaftMonk/generator-angular-fullstack/issues",
-  "author": "Tyler Henkel",
+  "homepage": "https://github.com/Alexandre-Herve/generator-cjg-angular",
+  "bugs": "https://github.com/Alexandre-Herve/generator-cjg-angular/issues",
+  "author": "Alexandre Hervé",
   "repository": {
     "type": "git",
-    "url": "git://github.com/DaftMonk/generator-angular-fullstack.git"
+    "url": "git@github.com:Alexandre-Herve/generator-cjg-angular.git"
   },
   "scripts": {
     "test": "grunt test"
