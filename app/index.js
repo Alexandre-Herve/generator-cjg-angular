@@ -186,6 +186,7 @@ var AngularFullstackGenerator = yeoman.generators.Base.extend({
       cb();
     }.bind(this));
   },
+           */
 
   saveSettings: function() {
     if(this.skipConfig) return;
@@ -233,7 +234,6 @@ var AngularFullstackGenerator = yeoman.generators.Base.extend({
       }
     }, { local: require.resolve('generator-ng-component/app/index.js') });
   },
-           */
 
   ngModules: function() {
     this.filters = this._.defaults(this.config.get('filters'), {
