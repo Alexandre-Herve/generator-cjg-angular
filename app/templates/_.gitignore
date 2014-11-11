@@ -3,6 +3,5 @@ public
 .tmp<% if(filters.sass) { %>
 .sass-cache<% } %>
 .idea
-client/bower_components
+bower_components
 dist
-/server/config/local.env.js
